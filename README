@@ -1,1 +1,66 @@
-edit ng kene kik
+Nama Kelompok
+1.TRI KURNAWAN  ( ketua )	18.01.4165
+2.ALFAT DIAN YULIANTO	18.01.4162
+3.OKY CAHYO RAHMANDIKA 18.01.4184
+
+Tema             = Pendidikan SMA
+Kelas            = D3 TI 
+dosen Pengampu   = Pramudita Ferdiansyah, M.Kom  
+
+LANGKAH 1 : MERUBAH HOSTNAME DAN HOST
+sudo nano /etc/hostname
+sudo nano /stc/hosts
+
+LANGKAH 2 : MENGGANTI NAMA "ubuntu desktop"
+sudo nano /tmp/foo.po
+msgld "Ubuntu Desktop"
+msgstr "EducationOS"
+CD /USR/SHARE/locate/en/LC_MESSAGES
+sudo msgfmt -o unity.mo /tmp/foo.po
+sudo reboot
+
+LANGKAH 3 : INSTAL MENGGANTI THEME DAN ICON
+Install Numix Theme & Icons in Ubuntu Linux :
+	sudo apt-get install unity-tweak-tool
+	sudo add-apt-repository ppa:numix/ppa
+	sudo apt-get update
+	sudo apt-get install numix-gtk-theme numix-icon-theme-circle numix-icon-theme-square
+  
+LANGKAH 4 : MENGGUNDUH GAMBAR DAN MENGGANTI LOUNCHER
+  wget -o louncher_brb.png http://getwallpapers.com/image/834588
+  sudo mv louncher_brb.pmg /usr/share/unity/icons/
+  
+LANGKAH 5 : MENGINSTALL APLIKASI 
+Karena aplikasi yang akan kami install merupakan dari Linux itu sendiri
+maka untuk cara install seperti berikut :
+-  sudo apt-get update
+-  install aplikasi :
+KwordQuits | sudo apt-get install kwordquiz 	( https://www.howtoinstall.co/en/ubuntu/trusty/kwordquiz )	
+Kalzium    | sudo apt-get install kalzium	( https://www.howtoinstall.co/en/ubuntu/trusty/kalzium )
+Kstars	   | sudo apt-get install kstars	( https://www.howtoinstall.co/en/ubuntu/trusty/kstars )
+WxMaxima   | sudo apt-get install wxmaxima	( https://www.howtoinstall.co/en/ubuntu/xenial/wxmaxima )
+Kmplot	   | sudo apt-get install kmplot	( https://www.howtoinstall.co/en/ubuntu/trusty/kmplot )
+Step	   | sudo apt-get install step		( https://www.howtoinstall.co/en/ubuntu/trusty/step )
+Geography  | sudo apt-get install kgeography	( https://www.howtoinstall.co/en/ubuntu/trusty/kgeography )
+
+
+LANGKAH 6 :MENGGANTI PLYMOUNTH
+-	Jika ingin mengganti tampilan plymouth anda dapat mendownload plymouth di Gnome Look.
+-	Extract file plymouth
+-	Selanjutnya buka terminal ctrl + alt  + t.
+-	Ketik sudo nautilus.
+-	Masuk pada directory  /lib/plymouth/themes/ubuntu-logo
+-	Copykan file plymouth pada directory /lib/plymouth/themes/ubuntu-logo
+-	Kembali ke terminal, gunakkan perintah berikut ini untuk memilih tampilan plymouth : sudo update-alternatives --config default.plymouth
+-	terakhir update initramfs degan perintah berikut ini, bila sudah selesai berikutnya restart : sudo update-initramfs –u
+
+LANGKAH 7 : MENGGANTI LOGO UBUNTU
+-	Buka terminal ctrl + alt  + t.
+-	Ketik sudo nautilus.
+-	Masuk pada directory /usr/share/unity-control-center/UbuntuLogo.png
+-	Selanjutnya ganti file UbuntuLogo.png dengan logo anda.
+
+
+
+
+  
