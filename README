@@ -44,7 +44,6 @@ Kmplot	   | sudo apt-get install kmplot	( https://www.howtoinstall.co/en/ubuntu/
 Step	   | sudo apt-get install step		( https://www.howtoinstall.co/en/ubuntu/trusty/step )
 Geography  | sudo apt-get install kgeography	( https://www.howtoinstall.co/en/ubuntu/trusty/kgeography )
 
-
 LANGKAH 6 :MENGGANTI PLYMOUNTH
 -	Jika ingin mengganti tampilan plymouth anda dapat mendownload plymouth di Gnome Look.
 -	Extract file plymouth
