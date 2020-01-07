@@ -1,11 +1,11 @@
-Nama Kelompok
+Nama Kelompok :
 1.TRI KURNAWAN  	:18.01.4165
 2.ALFAT DIAN YULIANTO	:18.01.4162
 3.OKY CAHYO RAHMANDIKA 	:18.01.4184
 
-Tema             = Pendidikan SMA
-Kelas            = D3 TI 
-dosen Pengampu   = Pramudita Ferdiansyah, M.Kom  
+Tema               = Pendidikan SMA & SMP
+Kelas              = 18 D3 TI 
+dosen Pembimbing   = Pramudita Ferdiansyah, M.Kom  
 
 LANGKAH 1 : MERUBAH HOSTNAME DAN HOST
 sudo nano /etc/hostname
@@ -60,7 +60,5 @@ LANGKAH 7 : MENGGANTI LOGO UBUNTU
 -	Masuk pada directory /usr/share/unity-control-center/UbuntuLogo.png
 -	Selanjutnya ganti file UbuntuLogo.png dengan logo anda.
 
+LINK VIDEO PEMBUATAN EDUCATION OS : ( coming soon )
 
-
-
-  
